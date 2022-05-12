@@ -1,0 +1,186 @@
+html{
+    font-size: 20.5%; /*1rem = 10px  CHANGE THIS FOR MOBILE/TABLET VIEW*/ 
+}
+
+body {
+    padding : 1rem;
+}
+
+.big-container{
+    max-width: 300rem;
+}
+
+/* COLORS */
+
+.grey{
+    background-color : #b8b8b8;
+}
+
+.white{
+    background-color: white;
+}
+
+
+/* OBJECTS */
+
+.rectangle-little {
+    height : 8rem;
+}
+
+.rectangle-1 {
+    height : 10rem;
+}
+
+.square-big {
+    height : 148rem;
+    width : 148rem;
+}
+.square-small {
+    height : 72rem;
+    width : 72rem;
+}
+
+
+/* WIDTHS and lengths */
+
+.full-w {
+    width : 100%;
+}
+.full-h {
+    height : 150rem;
+}
+
+.small-h {
+    height : 50rem;
+}
+
+.h-5 {
+    height : 90%;
+}
+
+.w-smallest {
+    width : 20%;
+}
+.w-1 {
+    width: 30%;
+}
+.test {
+    width : 48.5%;
+}
+.w-2 {
+    width : 40%;
+}
+.half-w {
+    width: 50%;
+}
+.w-3 {
+    width : 60%;
+}
+
+.w-4 {
+    width : 80%;
+}
+
+.w-5 {
+    width : 90%;
+}
+
+.long {
+    width : 80rem;
+    height : 130rem;
+}
+
+.wide {
+    width : 45%;
+    height : 80%;
+    margin : 2%;
+}
+
+.first-small {
+    height : 10%;
+}
+
+.second-small {
+    height : 40%;
+}
+
+.third-small {
+    height : 40%;
+}
+
+
+/* MARGINS */
+
+.margin-small-b {
+    margin-bottom: 3rem;
+}
+
+.margin-default-b {
+    margin-bottom: 3rem;
+}
+
+.margin-left {
+    margin-left: 3rem;
+}
+.margin-right {
+    margin-right: 3rem;
+}
+
+.m-auto {
+    margin-left : auto;
+    margin-right : auto;
+}
+.m-top {
+    margin-top : 5%;
+}
+.padding {
+    padding : 5rem;
+}
+
+/* LAYOUT */
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float : right;
+}
+
+.inline{
+    display : inline;
+}
+
+.inline-b {
+    display : inline-block;
+}
+.container{
+    overflow: auto;
+}
+
+.container::after {
+    content: "";
+    
+    display : table;
+    clear :both;
+}
+
+.absolute {
+    position :absolute;
+}
+.relative {
+    position : relative;
+}
+.left {
+    left : 1rem;
+}
+.right {
+    right : 1rem;
+}
+
+.third {
+    margin : 10rem;
+}
+
+.fit-content{
+    width : fit-content
+}
